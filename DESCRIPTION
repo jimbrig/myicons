@@ -21,10 +21,14 @@ Imports:
     shiny,
     stats,
     tibble
+Suggests: 
+    covr,
+    pkgdown,
+    travis,
+    usethis,
+    testthat
 Encoding: UTF-8
 Language: es
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
-Suggests: 
-    covr

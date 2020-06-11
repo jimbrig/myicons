@@ -107,8 +107,10 @@ usethis::use_data_raw("icon_table")
 
 # tests -------------------------------------------------------------------
 usethis::use_testthat()
+usethis::use_test("random_icon")
+usethis::use_test("icon_text")
 
-
+# vignettes ---------------------------------------------------------------
 # vignettes ---------------------------------------------------------------
 
 
@@ -126,7 +128,7 @@ usethis::use_coverage()
 
 # build -------------------------------------------------------------------
 usethis::use_package("htmltools")
-attachment::att_amend_desc()
+attachment::att_amend_desc(extra.suggests = c("covr", "pkgdown", "travis", "usethis"))
 
 
 
