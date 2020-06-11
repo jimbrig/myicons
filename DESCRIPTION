@@ -1,0 +1,16 @@
+Package: myicons
+Title: myicons
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jimmy",
+           family = "Briggs",
+           role = c("aut", "cre"),
+           email = "jimmy.briggs@oliverwyman.com")
+Description: Manage your own personal icon library and generate
+    random icons for quick prototyping.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
