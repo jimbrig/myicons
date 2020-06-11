@@ -112,6 +112,18 @@ usethis::use_testthat()
 # vignettes ---------------------------------------------------------------
 
 
+# shiny-app ---------------------------------------------------------------
+usethis::use_addin()
+
+
+
+# CI + extensions ---------------------------------------------------------
+usethis::use_travis()
+usethis::use_appveyor()
+usethis::use_coverage()
+
+
+
 # build -------------------------------------------------------------------
 usethis::use_package("htmltools")
 attachment::att_amend_desc()
