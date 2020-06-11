@@ -31,14 +31,16 @@ random_icon <- function(term = NULL,
     if (nrow(filt) == 0) {
       warning(term, " not found. Reverting to full library of icons.")
       icon_tbl <- icon_tbl
-    } else {
+    } else if (nrow(filt) > 0) {
       icon_tbl <- filt
+    } else {
+      icon_tbl <- icon_table
     }
 
   }
 
-  row <- stats::runif(n = 1, min = 0, max = nrow(icon_tbl) + 1) %>% trunc()
-
+  row <- stats::runif(n = 1, min = 1, max = nrow(icon_tbl) + 1) %>% trunc()
+  
   out <- icon_tbl[row, "name"]
   message("Random Icon Selected: ", out)
   shiny::icon(out, class = class)

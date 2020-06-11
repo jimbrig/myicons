@@ -25,3 +25,6 @@ test_that("warning displays", {
   expect_warning(random_icon(term = t))
   
 })
+
+rm(hold)
+rm(t)

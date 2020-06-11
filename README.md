@@ -24,8 +24,8 @@ coverage](https://codecov.io/gh/jimbrig/myicons/branch/master/graph/badge.svg)](
 status](https://github.com/jimbrig/myicons/workflows/R-CMD-check/badge.svg)](https://github.com/jimbrig/myicons/actions)
 [![Travis build
 status](https://travis-ci.com/jimbrig/myicons.svg?branch=master)](https://travis-ci.com/jimbrig/myicons)
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/jimbrig/myicons?branch=master&svg=true)](https://ci.appveyor.com/project/jimbrig/myicons)
+[![Build
+status](https://ci.appveyor.com/api/projects/status/6jbop7wu3qpw4amn?svg=true)](https://ci.appveyor.com/project/jimbrig/myicons)
 <!-- badges: end -->
 
 -----
