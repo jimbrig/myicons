@@ -20,7 +20,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Jimmy Briggs \email{jimmy.briggs@oliverwyman.com}
+\strong{Maintainer}: Jimmy Briggs \email{jimbrig2011@gmail.com}
 
 }
 \keyword{internal}

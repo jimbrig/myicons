@@ -26,7 +26,13 @@ icon_table <- fontawesome:::fa_tbl %>%
     terms = dplyr::coalesce(terms, "Unknown")
   )
 
-usethis::use_data(icon_table, overwrite = TRUE)
+usethis::use_data(icon_table, overwrite = TRUE, version = 3)
+usethis::use_data(icon_table, internal = TRUE, version = 3)
+
+tools::resaveRdaFiles("data", version = 3)
+tools::resaveRdaFiles("R", version = 3)
+tools::checkRdaFiles("data")
+tools::checkRdaFiles("R")
 
 txt <- docthis::doc_this("icon_table")
 cat(txt, file = "R/icon_table.R", sep = "\n")

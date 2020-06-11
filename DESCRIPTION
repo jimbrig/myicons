@@ -5,14 +5,14 @@ Authors@R:
     person(given = "Jimmy",
            family = "Briggs",
            role = c("aut", "cre"),
-           email = "jimmy.briggs@oliverwyman.com")
+           email = "jimbrig2011@gmail.com")
 Description: Manage your own personal icon library and generate
     random icons for quick prototyping.
 License: MIT + file LICENSE
 URL: https://github.com/jimbrig/myicons
 BugReports: https://github.com/jimbrig/myicons/issues
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5.0)
 Imports: 
     dplyr,
     htmltools,
@@ -26,5 +26,3 @@ Language: es
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
-Suggests: 
-    covr
