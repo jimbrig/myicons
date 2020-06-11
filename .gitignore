@@ -1,9 +1,6 @@
 .Rproj.user
 .Rhistory
 .RData
-
-data-raw/temp/
-
 *.Rproj
-docs
+data-raw/temp/
 docs/
