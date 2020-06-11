@@ -18,3 +18,10 @@ test_that("random_icon works with a term", {
   expect_equal(hold$name, "i")
   
 })
+
+test_that("warning displays", {
+  
+  t <- "random text that will not work"
+  expect_warning(random_icon(term = t))
+  
+})
