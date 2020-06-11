@@ -7,16 +7,14 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![Project Status:
-WIP](https://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
-[![Travis build
-status](https://travis-ci.com/jimbrig/myicons.svg?branch=master)](https://travis-ci.com/jimbrig/myicons)
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/jimbrig/myicons?branch=master&svg=true)](https://ci.appveyor.com/project/jimbrig/myicons)
-[![Codecov test
-coverage](https://codecov.io/gh/jimbrig/myicons/branch/master/graph/badge.svg)](https://codecov.io/gh/jimbrig/myicons?branch=master)
 [![R build
 status](https://github.com/jimbrig/myicons/workflows/R-CMD-check/badge.svg)](https://github.com/jimbrig/myicons/actions)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/jimbrig/myicons?branch=master&svg=true)](https://ci.appveyor.com/project/jimbrig/myicons)
+[![Travis build
+status](https://travis-ci.com/jimbrig/myicons.svg?branch=master)](https://travis-ci.com/jimbrig/myicons)
+[![Codecov test
+coverage](https://codecov.io/gh/jimbrig/myicons/branch/master/graph/badge.svg)](https://codecov.io/gh/jimbrig/myicons?branch=master)
 <!-- badges: end -->
 
 The goal of `myicons` is to assist R shiny developers allowing them to
@@ -33,3 +31,10 @@ Install myicons from GitHub with:
 ``` r
 devtools::install_github("jimbrig/myicons")
 ```
+
+#### Code of Conduct
+
+Please note that the myicons project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
