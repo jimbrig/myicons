@@ -15,6 +15,7 @@ status](https://ci.appveyor.com/api/projects/status/github/jimbrig/myicons?branc
 status](https://travis-ci.com/jimbrig/myicons.svg?branch=master)](https://travis-ci.com/jimbrig/myicons)
 [![Codecov test
 coverage](https://codecov.io/gh/jimbrig/myicons/branch/master/graph/badge.svg)](https://codecov.io/gh/jimbrig/myicons?branch=master)
+![pkgdown](https://github.com/jimbrig/myicons/workflows/pkgdown/badge.svg)
 <!-- badges: end -->
 
 The goal of `myicons` is to assist R shiny developers allowing them to
