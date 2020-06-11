@@ -33,9 +33,7 @@ random_icon <- function(term = NULL,
       icon_tbl <- icon_tbl
     } else if (nrow(filt) > 0) {
       icon_tbl <- filt
-    } else {
-      icon_tbl <- icon_table
-    }
+    } 
 
   }
 
