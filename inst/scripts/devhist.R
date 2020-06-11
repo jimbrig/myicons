@@ -16,13 +16,14 @@ pacman::p_load(
   desc,
   pkgbuild,
   pkgload,
-  attachment,
-  chameleon,
   pkgdown,
   knitr,
   rmarkdown,
-  hexSticker
 )
+
+remotes::install_github("ThinkR-open/testdown")
+remotes::install_github("ThinkR-open/attachment")
+remotes::install_github("ThinkR-open/chameleon")
 
 # initialize package ------------------------------------------------------
 usethis::create_package(
