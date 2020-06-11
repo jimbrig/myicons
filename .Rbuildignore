@@ -2,3 +2,5 @@
 ^\.Rproj\.user$
 ^pkgdevt\.R$
 ^README\.Rmd$
+^data-raw$
+^LICENSE\.md$

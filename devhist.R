@@ -93,10 +93,28 @@ knitr::knit("README.Rmd")
 
 
 
+# directories -------------------------------------------------------------
+fs::dir_create("inst/lib", recurse = TRUE)
 
+
+# functions ---------------------------------------------------------------
+usethis::use_r("icon_text")
+usethis::use_r("random_icon")
+usethis::use_r("icon_library")
+
+# data --------------------------------------------------------------------
+usethis::use_data_raw("icon_table")
 
 # tests -------------------------------------------------------------------
 usethis::use_testthat()
+
+
+# vignettes ---------------------------------------------------------------
+
+
+# build -------------------------------------------------------------------
+usethis::use_package("htmltools")
+attachment::att_amend_desc()
 
 
 

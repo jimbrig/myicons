@@ -6,6 +6,8 @@
 \alias{myicons-package}
 \title{myicons: myicons}
 \description{
+\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+
 Manage your own personal icon library and generate
     random icons for quick prototyping.
 }

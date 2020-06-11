@@ -9,13 +9,20 @@ Authors@R:
 Description: Manage your own personal icon library and generate
     random icons for quick prototyping.
 License: MIT + file LICENSE
+URL: https://github.com/jimbrig/myicons
+BugReports: https://github.com/jimbrig/myicons/issues
+Depends: 
+    R (>= 2.10)
+Imports: 
+    dplyr,
+    htmltools,
+    magrittr,
+    rlang,
+    shiny,
+    stats,
+    tibble
 Encoding: UTF-8
 Language: es
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
-URL: https://github.com/jimbrig/myicons
-BugReports: https://github.com/jimbrig/myicons/issues
-Imports: 
-    tibble,
-    magrittr
