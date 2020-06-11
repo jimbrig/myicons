@@ -23,10 +23,10 @@ Imports:
     tibble
 Suggests: 
     covr,
+    devtools,
     pkgdown,
-    travis,
-    usethis,
-    testthat
+    testthat,
+    usethis
 Encoding: UTF-8
 Language: es
 LazyData: true

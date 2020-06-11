@@ -128,7 +128,7 @@ usethis::use_coverage()
 
 # build -------------------------------------------------------------------
 usethis::use_package("htmltools")
-attachment::att_amend_desc(extra.suggests = c("covr", "pkgdown", "travis", "usethis"))
+attachment::att_amend_desc(extra.suggests = c("covr", "pkgdown", "usethis", "devtools", "testthat"))
 
 
 
