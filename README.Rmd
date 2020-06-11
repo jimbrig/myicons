@@ -20,17 +20,11 @@ An R Package for managing a personal library of icons.
 ## Badges
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![R build status](https://github.com/jimbrig/myicons/workflows/R-CMD-check/badge.svg)](https://github.com/jimbrig/myicons/actions)
+[![Build Status](https://travis-ci.com/jimbrig/myicons.svg?branch=master)](https://travis-ci.com/jimbrig/myicons)
+[![Build status](https://ci.appveyor.com/api/projects/status/6jbop7wu3qpw4amn?svg=true)](https://ci.appveyor.com/project/jimbrig/myicons)
 [![Codecov test coverage](https://codecov.io/gh/jimbrig/myicons/branch/master/graph/badge.svg)](https://codecov.io/gh/jimbrig/myicons?branch=master)
 [![pkgdown](https://github.com/jimbrig/myicons/workflows/pkgdown/badge.svg)](https://jimbrig.github.io/myicons/)
-<!-- badges: end -->
-
-## Builds
-
-<!-- badges: start -->
-[![R build status](https://github.com/jimbrig/myicons/workflows/R-CMD-check/badge.svg)](https://github.com/jimbrig/myicons/actions)
-[![Travis build status](https://travis-ci.com/jimbrig/myicons.svg?branch=master)](https://travis-ci.com/jimbrig/myicons)
-[![Build status](https://ci.appveyor.com/api/projects/status/6jbop7wu3qpw4amn?svg=true)](https://ci.appveyor.com/project/jimbrig/myicons)
 <!-- badges: end -->
 
 ***
